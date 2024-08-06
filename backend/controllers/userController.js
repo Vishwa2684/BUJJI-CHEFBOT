@@ -55,7 +55,7 @@ const generate = async (req, res) => {
 
         console.log(text, max_length);
 
-        let local = 'http://127.0.0.1:8000/generate';
+        let local = 'https://8000-01j3mhkr02ke60prkzkn5zhag9.cloudspaces.litng.ai/generate';
         console.log('generating');
         const response = await axios.post(local, { text, max_length });
         let data = response.data;

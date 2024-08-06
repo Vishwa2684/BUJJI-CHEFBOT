@@ -31,7 +31,7 @@ export default function LikedRecipes() {
         <>
             <Navbar />
             <div className="liked-recipes">
-                <h1>Liked Recipes</h1>
+                <h1 className='liked-h1'>Liked Recipes</h1>
                 <div className="recipe-cards">
                     {likedRecipes?.length > 0 ? (
                         likedRecipes?.map((recipe) => (

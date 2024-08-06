@@ -29,11 +29,15 @@ body{
 }
 
 .recipe-card {
-  width: 300px;
+  width: 200px;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.liked-h1 {
+  margin-left: 20px;
 }
 
 .recipe-image {
@@ -797,7 +801,7 @@ input:checked + .slider:before {
   border-radius: 8px;
   padding: 15px;
   background-color: white;
-  width: 350px; /* Fixed width */
+  width: 300px; /* Fixed width */
   /* height: 450px; */
   margin: 20px;
   position: relative;
